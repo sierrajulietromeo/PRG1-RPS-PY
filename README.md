@@ -22,7 +22,7 @@ rock_paper_scissors("paper", "scissors")  # should return "player2"
 
 Once you have the basic version working, extend your function so that it supports Sheldon Cooper's 'Big Bang' version 'Rock, Paper, Scissors, Lizard, Spock'. Remember to write the tests!
 
-![Picture of Big Bang Rules](bigbang.png)
+![Picture of Big Bang Rules](images/bigbang.png)
   
   
 ## Submission Checklist
