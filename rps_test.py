@@ -26,5 +26,25 @@ def test_4_RPSLS_Draw():
     assert( rock_paper_scissors( 'spock', 'spock' ) == "draw" )
     
 
+def test_5_RPSLS_player1wins():
+    assert( rock_paper_scissors( 'rock', 'lizard' ) == "player1" )
+    assert( rock_paper_scissors( 'scissors', 'lizard' ) == "player1" )
+    assert( rock_paper_scissors( 'lizard', 'paper' ) == "player1" )
+    assert( rock_paper_scissors( 'spock', 'rock' ) == "player1" )
+    assert( rock_paper_scissors( 'spock', 'scissors' ) == "player1" )
+    assert( rock_paper_scissors( 'lizard', 'spock' ) == "player1" )
+    assert( rock_paper_scissors( 'paper', 'spock' ) == "player1" )
+    
+
+def test_6_RPSLS_player2wins():
+    assert( rock_paper_scissors( 'paper', 'lizard' ) == "player2" )
+    assert( rock_paper_scissors( 'spock', 'lizard' ) == "player2" )
+    assert( rock_paper_scissors( 'spock', 'paper' ) == "player2" )
+    assert( rock_paper_scissors( 'lizard', 'rock' ) == "player2" )
+    assert( rock_paper_scissors( 'lizard', 'scissors' ) == "player2" )
+    assert( rock_paper_scissors( 'rock', 'spock' ) == "player2" )
+    assert( rock_paper_scissors( 'scissors', 'spock' ) == "player2" )
+    
+  
 
 
