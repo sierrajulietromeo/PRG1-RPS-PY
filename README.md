@@ -34,3 +34,18 @@ Prior to actually submitting your final attempt you should ensure you have revie
 2. Does your solution follow accepted coding conventions?
 3. Your 'test' code, commented out at the bottom of ```rps.py```
 
+
+
+
+## Tasks 1-4 Coding Standards rubric
+
+
+| Marks | Programming Conventions                                                                                                                                                                                                                                                                                                                                                                            |
+|-------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 72-84-97%  (Exceeds expectations. Excellent to exceptional evidence.)   | Code is exemplary in its organisation, clarity, and maintainability, adhering to industry best practices and coding standards. It employs descriptive variable names, consistent indentation, and is self-documenting, requiring minimal comments. |
+| 42-55-68% (Meets expectations. Satisfactory to Good Evidence.)     | Code is well-structured and readable, largely aligning with industry best practices and coding standards. It utilises clear variable names and consistent indentation, with comments used judiciously for clarity.                      |
+| 30-34-38% (Below Expectation. Limited evidence. Marginal fail.)    | Code displays reasonable organisation and readability, with potential for refinement in variable naming, indentation and making the code more self-explanatory. This indicates a developing understanding of programming conventions.                                                                                                   |
+| 15-20-25%  (Poor attempt. Minimal evidence. Clear fail.)   | Code demonstrates initial efforts towards organisation and readability but requires significant enhancements to improve clarity, maintainability and adherence to industry best practices. This suggests a need for further development in programming conventions and software design principles.                                                            |
+| 0%     | No attempt                                                                                                                                                                                            |
+
+
