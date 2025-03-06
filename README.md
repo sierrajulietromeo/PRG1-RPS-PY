@@ -6,7 +6,7 @@ Create a single function (the skeleton has been provided for you). The function 
 
 When called, the function should return the winning player reference (i.e., 'player1' or 'player2' or 'draw') as a single string.
 
-Evidence of testing is expected. You should test your solution by making sufficient calls to your function so that you are positive that it works as expected. These should be left at the bottom of ```rps.py``` commented out.
+You should test your solution yourself by making your own sufficient calls to your function so that you are positive that it works as expected, regardless of the included tests.
 
 Your final version should demonstrate evidence of being refactored; please note, refactoring is not bug-fixing - essentially it is reducing complexity and simplifying your codebase such that it is as efficient, readable, structured and as manageable as possible.
 
@@ -20,9 +20,18 @@ rock_paper_scissors("paper", "scissors")  # should return "player2"
 
 ## Additional criteria.
 
-Once you have the basic version working, extend your function so that it supports Sheldon Cooper's 'Big Bang' version 'Rock, Paper, Scissors, Lizard, Spock'. Remember to write the tests!
+Once you have the basic version working, extend your function so that it supports Sheldon Cooper's 'Big Bang' version 'Rock, Paper, Scissors, Lizard, Spock'. Remember to carry out your own tests by calling the function. Here are the rules:
 
-![Picture of Big Bang Rules](images/bigbang.png)
+* Rock beats Scissors.
+* Paper beats Rock.
+* Scissors beats Paper.
+* Lizard beats (poisons) Spock.
+* Spock beats (smashes) Scissors.
+* Rock beats (crushes) Lizard.
+* Paper beats (disproves) Spock.
+* Scissors beats (decapitates) Lizard.
+* Lizard beats (eats) Paper.
+* Spock beats (vaporises) Rock.
   
   
 ## Submission Checklist
@@ -32,7 +41,6 @@ Prior to actually submitting your final attempt you should ensure you have revie
 
 1. Refactored ```rock_paper_scissors``` function.
 2. Does your solution follow accepted coding conventions?
-3. Your 'test' code, commented out at the bottom of ```rps.py```
 
 
 
