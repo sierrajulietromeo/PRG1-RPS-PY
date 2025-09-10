@@ -2,6 +2,7 @@ from rps import rock_paper_scissors
 
 # pip install pytest in the terminal
 # pytest -v rps_test.py
+# pytest -v rps_test.py::test_1_draw (runs a specific test)
 
 def test_1_draw():
     assert( rock_paper_scissors( 'paper', 'paper' ) == "draw" )
